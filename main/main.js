@@ -1,10 +1,9 @@
 module.exports = function main() {
     let sequence = new Sequence([6, 9, 15, -2, 92, 11]);
     console.log(`o) 最小值 = ${sequence.minimum()}
-// Write your code here
 o) 最大值 = ${sequence.maximum()}
-
-`);
+o) 元素数量 = ${sequence.elementsNumber()}
+o) 平均值 = ${sequence.}`);
 };
 
 class Sequence {
@@ -35,5 +34,8 @@ class Sequence {
     return maximum_number;
   }
   
-  
+  elementsNumber() {
+    var elements_number = this.input.length;
+    return elements_number;
+  }
 }

@@ -44,7 +44,7 @@ class Sequence {
     for (var i = 0; i < this.input.length; i ++) {
       sum_number += this.input[i];
     }
-    average_number = sum_number / this.input.length;
+    average_number = (sum_number / this.input.length).toFixed(2);
     return average_number;
   }    
 }
